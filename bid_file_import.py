@@ -4,13 +4,13 @@
 
 # set pathes
 # path to bid files location
-pathFolderBidFiles = 'beta/BidFiles/'
+pathFolderBidFiles = 'BidFiles/'
 
 # set path to registered unit file
 fileRegUnits = 'Reg_Units_Modified.csv'
 
 # set path to where market results are located
-pathFolderMarketResults = 'beta/MarketResults/'
+pathFolderMarketResults = 'MarketResults/'
 
 # data import section
 # import data of registered units
