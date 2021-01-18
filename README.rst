@@ -16,7 +16,7 @@ Everybody is welcome to contribute by fixing documentation, bugs and typos, etc 
 Usage of scripts
 ================
 
-In order to apply the inertia dispatch algorithm, lunch the file main.py
+In order to apply the inertia dispatch algorithm, lunch the file `main.py`
 
 License
 =======
