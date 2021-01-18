@@ -2,7 +2,7 @@
 # data import
 # -------------
 # set path
-pathEntso = 'beta/ActualGenerationOutputPerUnit/'
+pathEntso = 'ActualGenerationOutputPerUnit/'
 
 converterEntso = pandas.read_csv(pathData + 'ENTSO_EIRGRID.csv',
                                  sep=';')
