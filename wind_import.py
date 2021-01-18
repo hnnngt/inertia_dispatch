@@ -13,7 +13,7 @@ def knots2Meters(knots):
 # -------------------
 
 # set path to folder where weather data is stored
-pathWindData = 'beta/Weather/'
+pathWindData = 'Weather/'
 
 # create a list of all weather files
 listWeatherFieles = os.listdir(pathData + pathWindData)
