@@ -3,7 +3,7 @@
 # ---------------------
 
 # set path to folder where the pickle results from the bid import file are located
-pathResults = 'beta/Results/'
+pathResults = 'Results/'
 
 # import data
 dicBuy = dicBidDataBuy
