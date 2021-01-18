@@ -483,14 +483,14 @@ for idxKinEnergy in range(0, len(scenKinEnergy)):
                                                        'Inertia Day Ahead Demand [MWs]':
                                                        kinEnergyRemainAfterAlgo})
 
-                dfResultBeforeAlgo.to_csv(pathData + 'beta/Results/' + scenNameFull + '_Before.csv', sep=';')
+                dfResultBeforeAlgo.to_csv(pathData + 'Results/' + scenNameFull + '_Before.csv', sep=';')
 
-                dfResultAfterAlgo.to_csv(pathData + 'beta/Results/' + scenNameFull + '_After.csv', sep=';')
+                dfResultAfterAlgo.to_csv(pathData + 'Results/' + scenNameFull + '_After.csv', sep=';')
 
-                pickleSellDataAfter = open(pathData + 'beta/Results/' + scenNameFull + '_bid_sell_data_after_algo.pickle', 'wb')
+                pickleSellDataAfter = open(pathData + 'Results/' + scenNameFull + '_bid_sell_data_after_algo.pickle', 'wb')
                 pickle.dump(dicSellAfter, pickleSellDataAfter, protocol=pickle.HIGHEST_PROTOCOL)
 
-                pickleSellDataBefore = open(pathData + 'beta/Results/' + scenNameFull + '_bid_sell_data_before_algo.pickle', 'wb')
+                pickleSellDataBefore = open(pathData + 'Results/' + scenNameFull + '_bid_sell_data_before_algo.pickle', 'wb')
                 pickle.dump(dicSellFinal, pickleSellDataBefore, protocol=pickle.HIGHEST_PROTOCOL)
 
 # print message
