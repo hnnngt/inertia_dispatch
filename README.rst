@@ -16,18 +16,7 @@ Everybody is welcome to contribute by fixing documentation, bugs and typos, etc 
 Usage of scripts
 ================
 
-In order to apply the inertia dispatch algorithm a certain chronological order has to be met:
-
-1_create_list_reg_units.py
-
-2_bid_file_import.py
-
-3_calc_quantity_diff.py
-
-4_inertia_dispatch_algo.py
-
-
-The other scripts can be executed as needed. 
+In order to apply the inertia dispatch algorithm, lunch the file main.py
 
 License
 =======
