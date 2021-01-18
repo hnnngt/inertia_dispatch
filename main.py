@@ -3,7 +3,7 @@
 # ------------------------
 
 # set path to where the data is stored
-pathData = '/home/henning/Documents/Forschung/VoSI/Publication/2021_02_energies_special_issue_CJ/Data/'
+pathData = ''
 
 # set demanded stored kinetic energy by the TSO in MWs
 kinEnergyTso = 23000
